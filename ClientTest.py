@@ -11,7 +11,7 @@ class ClientThread(Thread):
     def __init__(self):
         Thread.__init__(self)
         #self.host = socket.gethostname()
-        self.host = '127.0.0.1'
+        self.host = '127.0.0.1' #connect to local
         self.port = 8765
         self.tcpClientA= None
 
